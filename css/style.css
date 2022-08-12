@@ -1,0 +1,649 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap');
+
+main {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+.content-header {
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.header-block {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.logotype {
+    width: 230px;
+    height: 28px;
+}
+
+.navigation-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: rgb(2, 127, 61);
+    font-size: 17px;
+    text-decoration: none;
+    padding-left: 33px;
+    padding-right: 33px;
+}
+
+.flex-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.connect-button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    background: rgb(2, 127, 61);
+    padding: 13px 60px;
+    border-radius: 5px;
+}
+
+/* section-join */
+
+.section-join {
+    background: rgb(200, 16, 46);
+    padding-top: 80px;
+    padding-bottom: 130px;
+    position: relative;
+
+}
+.main-text {
+    font-size: 18px;
+    color: #fff;
+    line-height: 29px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+.content-join {
+    width: 100%;
+    max-width: 780px;
+    margin: 0 auto;
+}
+.main-button {
+    background: rgb(2, 127, 61);
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: inline-block;
+}
+.main-button:hover, .connect-button:hover  {
+    background: rgb(11, 163, 82);
+    transition: 0.3s;
+}
+.join-button {
+    padding: 19px 65px;
+}
+.join-button-block {
+    text-align: center;
+    padding-top: 33px;
+}
+.whitelist-start {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 27px;
+    font-size: 17px;
+    color: #fff;
+    text-align: center;
+    padding-top: 35px;
+}
+.join-img::before {
+
+    content: "";
+    /* В любом случае необходим, даже пустой. Иначе не будет работать */
+    
+    position: absolute;
+    left: 42px;
+    bottom: 0;
+  
+    width: 350px;
+    height: 350px;
+  
+    background-image: url(../img/head.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* section-meet */
+
+.section-meet {
+    padding-top: 95px;
+    padding-bottom: 95px;
+}
+
+.content-nft {
+    width: 100%;
+    max-width: 1145px;
+    margin: 0 auto;
+}
+
+.main-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 54px;
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+}
+
+.green {
+    color: rgb(0, 99, 65);
+}
+
+.meet-img {
+    width: 360px;
+    height: 360px;
+}
+
+.flex-meet {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* section-team */
+
+.section-team {
+    background: rgb(2, 127, 61);
+    padding-top: 95px;
+    padding-bottom: 95px;
+}
+
+.team-img {
+    width: 390px;
+    height: 390px;
+    border: 4px solid #fff;
+}
+
+.flex-team {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.team-text {
+    line-height: 38px;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding-top: 20px;
+    text-align: center;
+}
+
+/* section-coin */
+
+.section-coin {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+.content-coin {
+    width: 100%;
+    max-width: 1210px;
+    margin: 0 auto;
+}
+
+.introducing-text, .chill-text {
+    color: rgb(0, 99, 65);
+    font-size: 18px;
+    line-height: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.chill-text {
+    padding-bottom: 20px;
+}
+.black {
+    color: #000;
+}
+
+.chilli-coin {
+    margin: 0px;
+    line-height: 120px;
+    font-size: 160px;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(200, 16, 46);
+    padding-top: 30px;
+}
+
+.text-coin {
+    font-size: 18px;
+    line-height: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #000;
+    padding-bottom: 20px;
+}
+
+.left-coin {
+    width: 57%;
+}
+
+.right-coin {
+    width: 42%;
+    padding-top: 35px;
+}
+
+.line-coin {
+    border: 4px solid rgb(0, 99, 65);
+    width: 54%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.flex-coin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.coin-img {
+    width: 605px;
+    height: 605px;
+}
+
+/* section-roadmap */
+
+.section-roadmap {
+    background: rgb(200, 16, 46);
+    padding-top: 100px;
+    padding-bottom: 270px;
+    position: relative;
+    overflow: hidden;
+}
+
+.content-road-mint {
+    width: 100%;
+    max-width: 780px;
+    margin: 0 auto;
+}
+
+.text-roadmap {
+    line-height: 20px;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.download-button-block {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.download-button {
+    padding: 25px 130px;
+}
+
+.cactus-1::before {
+    content: "";
+    /* В любом случае необходим, даже пустой. Иначе не будет работать */
+    
+    position: absolute;
+    left: -105px;
+    bottom: -45px;
+  
+    width: 632px;
+    height: 355px;
+  
+    background-image: url(../img/cactus-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 9;
+}
+
+.road::before {
+    content: "";
+    /* В любом случае необходим, даже пустой. Иначе не будет работать */
+    
+    position: absolute;
+    top:76.5%;
+    left:50%;
+    transform:translate(-50%, -50%);
+  
+    width: 540px;
+    height: 270px;
+  
+    background-image: url(../img/road.png);
+    background-size: cover;
+    background-repeat: no-repeat;  
+    z-index: 1;
+}
+
+.cactus-2::before {
+    content: "";
+    /* В любом случае необходим, даже пустой. Иначе не будет работать */
+    
+    position: absolute;
+    right: -150px;
+    bottom: -45px;
+  
+    width: 632px;
+    height: 355px;
+  
+    background-image: url(../img/cactus-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 9;
+}
+
+/* section-mint */
+
+.section-mint {
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+
+.warning-text {
+    color: #000;
+    font-size: 18px;
+    line-height: 29px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.warning {
+    color: rgb(200, 16, 46);
+    text-decoration: underline;
+}
+
+/* footer */
+
+footer {
+    background: rgb(2, 127, 61);
+}
+
+.content-footer {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer-navigation {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 27px;
+    font-weight: 400;
+    font-size: 17px;
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.mobile-head {
+    display: none!important;
+    width: 100%;
+    max-width: 333px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.gif-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 1260px) {
+    .content-header {
+        padding-left: 10px;
+        padding-right: 10px;
+        box-sizing: border-box;
+    }
+
+    .join-img::before {
+        width: 275px;
+        height: 275px;
+        left: 20px;
+    }
+
+    .right-coin {
+        margin-right: 50px;
+    }
+
+    .content-coin {
+        width: 100%;
+        max-width: 100%;
+        padding-right: 10px;
+        padding-left: 10px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    .navigation-text {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .meet-img {
+        width: 300px;
+        height: 300px;
+    }
+    .flex-meet {
+        justify-content: space-around;
+    }
+    .cactus-1::before {
+        left: -220px;
+        bottom: -45px;
+    }
+    .cactus-2::before {
+        right: -220px;
+        bottom: -45px;
+    }
+    .coin-img {
+        width: 500px;
+        height: 500px;
+    }
+    .chilli-coin {
+        font-size: 130px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .header-navigation {
+        display: none;
+    }
+    .mobile-head {
+        display: block!important;
+    }
+    .join-img::before {
+        display: none;
+    }
+    .content-join {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+    .meet-img {
+        width: 240px;
+        height: 240px;
+    }
+    .team-img {
+        width: 360px;
+        height: 360px;
+    }
+    .content-road-mint, .content-nft, .content-join {
+        width: 100%;
+        max-width: 100%;
+        padding-right: 10px;
+        padding-left: 10px;
+        box-sizing: border-box;
+    }
+    .section-roadmap {
+        overflow: initial;
+    }
+    .cactus-1::before {
+        top: 93.5%;
+        left: 57%;
+        transform:translate(-50%, -50%);
+        width: 300px;
+        height: 187px;
+    }
+    .cactus-2::before {
+        display: none;
+    }
+    .gif-mobile {
+        display: block;
+    }
+    .right-coin {
+        display: none;
+    }
+    .line-coin {
+        display: none;
+    }
+    .left-coin {
+        width: 100%;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 768px) {
+    .meet-img {
+        width: 350px;
+        height: 350px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .flex-meet, .flex-team {
+        flex-direction: column;
+    }
+    .team-job {
+        margin-top: 40px;
+    }
+    .section-meet, .section-team, .section-mint {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .section-mint {
+        padding-top: 70px;
+    }
+    .flex-meet {
+        padding-top: 30px;
+    }
+    .flex-team {
+        padding-top: 0px;
+    }
+    .download-button {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 94%;
+    }
+    .text-roadmap {
+        font-size: 21px;
+    }
+    .road::before {
+        top: 77.5%;
+    }
+    .chilli-coin {
+        font-size: 21vw;
+    }
+}
+@media screen and (max-width: 540px) {
+    .connect-button {
+        padding: 10px 20px;
+    }
+    .logotype {
+        width: 42vw;
+        height: 5vw;
+    }
+    .connect-button {
+        font-size: 4vw;
+    }
+    .join-button {
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 98%;
+    }
+    .main-text {
+        font-size: 16px;
+    }
+    .mobile-head {
+        max-width: 250px;
+    }
+    .meet-img  {
+        width: 250px;
+        height: 250px;
+    }
+    .team-img {
+        width: 250px;
+        height: 250px;
+    }
+    .main-title {
+        font-size: 40px;
+    }
+    .team-job {
+        text-align: center;
+    }
+    .road::before {
+        width: 415px;
+        left: 38%;
+    }
+
+    .coin-img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .main-button {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .footer-navigation {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .main-button, .team-text {
+        font-size: 20px;
+    }
+    
+    .text-roadmap, .download-button {
+        font-size: 16px;
+    }
+    
+    .road::before {
+        width: 385px;
+        height: 261px;
+        left: 29%;
+    }
+
+    .cactus-1::before {
+        width: 250px;
+        height: 152px;
+        left: 54%;
+    }
+
+    .chilli-coin {
+        padding-top: 0px;
+    }
+}
